@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio/Video Uploading - Online TV</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .heading{
+            text-align: center;
+        }
+
+        /* Create two equal columns that floats next to each other */
+        .column {
+            float: left;
+            text-align: center;
+            margin: auto;
+            width: 50%;
+            margin: auto;
+            border: 3px solid #73AD21;
+            padding: 50px;
+        }
+
+        .column h2{
+            color: #fff;
+        }
+
+        /* Clear floats after the columns */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .button {
+            background-color: #000; /* Green */
+            border: none;
+            font-weight: bold;
+            color: #fff;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+        }
+
+        /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+        @media screen and (max-width: 600px) {
+            .column {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+<h1 class="heading">Audio/Video Uploading - Online TV</h1>
+<div class="row">
+  <div class="column" style="background-color:green;">
+    <h2>Upload Audio/MP3</h2>
+    <a class="button" href="audio/index.php">Upload</a>
+  </div>
+  <div class="column" style="background-color:red;">
+    <h2>Upload Video/MP4</h2>
+    <a class="button" href="video/index.php">Upload</a>
+</div>
+</body>
+</html>
